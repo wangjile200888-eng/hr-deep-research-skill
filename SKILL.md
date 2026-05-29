@@ -27,6 +27,8 @@ This skill is for deep HR research. It is not a concept list or generic advice g
   Upgrade every deep HR research output from concept explanation to business problem, diagnostic logic, tools, data evidence, actions, resistance handling, and risk control.
 - 深度研究默认执行“搜索增强协议”：增加有效搜索密度，而不是简单堆砌资料。搜索结果必须转化为事实证据、方法论工具、实践问题、反证材料，并回填到分析框架中。  
   Deep research should use the "search enhancement protocol": increase effective search density rather than dumping sources. Search results must be converted into factual evidence, methodology tools, practice problems, and counter-evidence, then mapped back into the analytical framework.
+- 对每个关键分析节点执行“节点展开协议”，禁止只用一句话或一行表格概括。每个关键节点都要展开到定义、经营问题、诊断信号、数据口径、组织承接、关键岗位、HR 机制和实践问题。  
+  Apply the "node expansion protocol" to every key analytical node. Do not summarize a key node with only one sentence or one table row. Expand it into definition, business problem, diagnostic signals, data definitions, organization mechanism, key roles, HR mechanisms, and practice problems.
 - 每个重要观点都必须回答：解决什么经营问题、适用于什么公司阶段、需要哪些数据验证、由谁负责推动、具体动作顺序是什么、过程中最大阻力是什么、如何判断做成了、做错会有什么副作用。  
   Every important claim should answer: what business problem it solves, which company stage it fits, what data validates it, who drives it, action sequence, major resistance, success criteria, and side effects if done poorly.
 - 默认先产出 Markdown；用户确认后再转 PDF，除非用户明确要求直接生成 PDF。  
@@ -144,6 +146,50 @@ Translate frameworks and tools into real implementation issues.
 - 常见低水平做法和高质量做法 / Low-quality and high-quality practices
 - 最终沉淀成什么制度、流程、模板、指标或人才机制 / What policy, process, template, metric, or talent mechanism should be institutionalized
 
+#### 节点展开协议 / Node Expansion Protocol
+
+对每个关键分析节点，必须展开为一个“小专题”。适用对象包括但不限于：价值链环节、关键组织能力、组织形式/机制、关键岗位、HR 机制、方法论工具、实践问题。
+
+Every key analytical node must be expanded as a mini-topic. Applicable nodes include value-chain steps, key organizational capabilities, organization forms/mechanisms, key positions, HR mechanisms, methodology tools, and practical problems.
+
+每个节点按 8 项展开：
+
+Expand each node across eight dimensions:
+
+1. 定义：这个概念到底指什么。  
+   Definition: what the concept means.
+2. 经营问题：它解决哪类增长、利润、效率、客户体验或风险问题。  
+   Business problem: what growth, profit, efficiency, customer, or risk problem it solves.
+3. 诊断信号：如何判断这里有问题。  
+   Diagnostic signals: how to tell whether the node is weak.
+4. 数据口径：需要哪些数据验证。  
+   Data definitions: what data is needed for validation.
+5. 组织承接：需要什么组织形式、权责关系、协同机制或决策机制。  
+   Organization mechanism: what organization form, accountability, collaboration, or decision mechanism is required.
+6. 关键岗位：谁负责、谁最关键、哪些人才承载能力。  
+   Key roles: who owns it, who is critical, and what talent carries the capability.
+7. HR 机制：招聘配置、培训发展、绩效管理、薪酬激励、员工关系、组织发展/文化如何支撑。  
+   HR mechanisms: how recruitment/staffing, L&D, performance, compensation/incentives, employee relations, and OD/culture support it.
+8. 实践问题：落地会遇到什么阻力，如何解决，最终沉淀成什么机制。  
+   Practice problems: what resistance appears, how to solve it, and what mechanism should be institutionalized.
+
+密度阈值：
+
+Density threshold:
+
+- 每个一级关键节点至少包含 3 个诊断信号。  
+  Each first-level key node should include at least 3 diagnostic signals.
+- 至少 5 个数据口径。  
+  Include at least 5 data definitions.
+- 至少 2 个组织机制。  
+  Include at least 2 organization mechanisms.
+- 至少 3 个关键岗位或关键角色。  
+  Include at least 3 key positions or roles.
+- HR 六大模块中至少 4 个模块要有机制动作。  
+  At least 4 of the 6 HR modules should have mechanism actions.
+- 至少 2 个实践阻力与解决方案。  
+  Include at least 2 implementation barriers and solutions.
+
 ### 4. 搜索与证据收集 / Search and Evidence Collection
 
 涉及当前信息、外部环境、法律、市场、公司、行业趋势时，必须查找资料。  
@@ -226,6 +272,8 @@ Convert evidence into HRD-usable insight.
 - 是否清楚呈现三层结构？ / Is the three-layer structure clear?
 - 是否完整呈现价值链 -> 组织能力 -> 组织形式/机制 -> 关键岗位/人才 -> HR 机制输出？ / Does it cover value chain -> capabilities -> organization forms/mechanisms -> key roles/talent -> HR mechanism outputs?
 - 是否执行搜索增强协议，并把搜索结果整理为事实证据、方法论工具、实践问题和反证材料？ / Has the search enhancement protocol been applied, with findings organized as factual evidence, methodology tools, practice problems, and counter-evidence?
+- 是否对关键节点执行节点展开协议，而不是只用一句话或一行表格概括？ / Has the node expansion protocol been applied to key nodes instead of summarizing them in one sentence or one table row?
+- 一级关键节点是否达到密度阈值：3 个诊断信号、5 个数据口径、2 个组织机制、3 个关键岗位、4 个 HR 模块动作、2 个实践阻力与解决方案？ / Do first-level nodes meet the density threshold: 3 diagnostic signals, 5 data definitions, 2 organization mechanisms, 3 key roles, 4 HR module actions, and 2 implementation barriers with solutions?
 - 每个重要观点是否回答经营问题、适用阶段、验证数据、责任人、动作顺序、阻力、成功判断和副作用？ / Does every important point cover business problem, applicable stage, validation data, owner, action sequence, resistance, success criteria, and side effects?
 - 方法论工具是否展开到定义、适用场景、操作步骤、输入数据、输出结果、HRD 判断标准、误用风险和管理层质疑？ / Are tools expanded into definition, scenarios, steps, inputs, outputs, HRD judgment, misuse risks, and management challenges?
 - 是否把口号换成了具体操作细节？ / Are slogans converted into operational details?

@@ -21,6 +21,10 @@ It is not a simple HR concept library. It is a structured workflow for turning H
 
 It also uses a default "search enhancement protocol": search is not for dumping sources, but for increasing evidence density, methodology density, practice-problem density, and counter-evidence density.
 
+此外，skill 会执行“节点展开协议”：每个关键分析节点都必须展开为一个小专题，不能只用一句话或一行表格概括。
+
+It also applies a "node expansion protocol": every key analytical node must be expanded as a mini-topic, not reduced to one sentence or one table row.
+
 ## 核心方法论 / Core Methodology
 
 这个 skill 的核心不是“收集 HR 知识点”，而是把人力资源研究拆成三层：
@@ -120,6 +124,34 @@ Search findings must be mapped back into the core framework:
 -> HR 机制输出 / HR Mechanism Outputs
 -> 实践问题与风险控制 / Practice Problems and Risk Control
 ```
+
+### 节点展开协议 / Node Expansion Protocol
+
+为提高分析密度，每个关键分析节点都要按 8 项展开：
+
+To increase analytical density, every key node should be expanded across eight dimensions:
+
+| 展开项 / Dimension | 要回答的问题 / Question |
+|---|---|
+| 定义 / Definition | 这个概念到底指什么？ / What does this concept mean? |
+| 经营问题 / Business Problem | 它解决什么增长、利润、效率、客户体验或风险问题？ / What growth, profit, efficiency, customer, or risk problem does it solve? |
+| 诊断信号 / Diagnostic Signals | 如何判断这里有问题？ / How do we know this node is weak? |
+| 数据口径 / Data Definitions | 需要哪些数据验证？ / What data is needed for validation? |
+| 组织承接 / Organization Mechanism | 需要什么组织形式、权责、协同或决策机制？ / What organization form, accountability, collaboration, or decision mechanism is required? |
+| 关键岗位 / Key Roles | 谁负责，谁最关键？ / Who owns it and who is critical? |
+| HR 机制 / HR Mechanisms | 招聘、培训、绩效、薪酬、员工关系、OD/文化如何支撑？ / How do HR modules support it? |
+| 实践问题 / Practice Problems | 会遇到什么阻力，如何解决？ / What resistance appears and how should it be solved? |
+
+密度阈值：
+
+Density threshold:
+
+- 至少 3 个诊断信号 / At least 3 diagnostic signals
+- 至少 5 个数据口径 / At least 5 data definitions
+- 至少 2 个组织机制 / At least 2 organization mechanisms
+- 至少 3 个关键岗位或关键角色 / At least 3 key positions or roles
+- HR 六大模块中至少 4 个模块要有机制动作 / At least 4 of the 6 HR modules should have mechanism actions
+- 至少 2 个实践阻力与解决方案 / At least 2 implementation barriers and solutions
 
 ## 适用场景 / Use Cases
 

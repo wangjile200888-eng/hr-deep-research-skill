@@ -42,6 +42,10 @@ These templates are starting points. Adapt them to the user's objective rather t
 | 工具 / Tool | 定义 / Definition | 适用场景 / Use Case | 输入数据 / Input Data | 操作步骤 / Steps | 输出结果 / Outputs | HRD 判断标准 / HRD Criteria | 误用风险 / Misuse Risk |
 |---|---|---|---|---|---|---|---|
 
+## 节点展开 / Node Expansion
+| 分析节点 / Analytical Node | 定义 / Definition | 经营问题 / Business Problem | 诊断信号 / Diagnostic Signals | 数据口径 / Data Definitions | 组织承接 / Organization Mechanism | 关键岗位 / Key Roles | HR 机制 / HR Mechanisms | 实践问题 / Practice Problems |
+|---|---|---|---|---|---|---|---|---|
+
 ## 实践与问题 / Practice and Problems
 | 场景/问题 / Scenario or Problem | 相关角色 / Stakeholders | 冲突点 / Conflict | 数据争议 / Data Dispute | 解决动作 / Actions | 会议/沟通机制 / Cadence and Communication | 机制沉淀 / Institutionalized Mechanism | 管理风险 / Management Risk |
 |---|---|---|---|---|---|---|---|
