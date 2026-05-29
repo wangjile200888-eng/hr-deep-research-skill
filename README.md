@@ -17,6 +17,10 @@ It is not a simple HR concept library. It is a structured workflow for turning H
 3. **实践与问题 / Practice and Problems**：关注框架和工具在真实组织中可能遇到的阻力与解决方案，例如业务方不认同、组织能力虚化、组织形式选错、权责不清、关键岗位泛化、数据口径争议、变革落地受阻等。  
    Focus on real implementation barriers and solutions, such as business resistance, vague organizational capabilities, wrong organization-form choices, unclear accountability, over-generalized key positions, data definition disputes, and failed change implementation.
 
+同时，这个 skill 默认使用“搜索增强协议”：搜索不是为了堆资料，而是为了提高证据密度、方法论密度、实践问题密度和反证密度。
+
+It also uses a default "search enhancement protocol": search is not for dumping sources, but for increasing evidence density, methodology density, practice-problem density, and counter-evidence density.
+
 ## 核心方法论 / Core Methodology
 
 这个 skill 的核心不是“收集 HR 知识点”，而是把人力资源研究拆成三层：
@@ -89,6 +93,33 @@ Practice and problems answer: **What real obstacles appear during implementation
 | HR 机制和组织能力脱节 / HR mechanisms disconnect from capabilities | 招聘、绩效、薪酬、培训各做各的 / HR modules work separately | 让六大模块围绕同一组组织能力和关键岗位联动 / Align six HR modules around capabilities and key roles |
 | 数据口径争议 / Data definition disputes | 人效、绩效、成本、流失率各部门口径不同 / Different departments use different definitions | 统一指标定义、数据来源和使用场景 / Align definitions, data sources, and use cases |
 | 变革落地受阻 / Change implementation stalls | 干部表态支持，实际不执行 / Leaders agree verbally but do not execute | 建立试点、沟通、利益调整、节奏控制和复盘机制 / Use pilots, communication, interest adjustment, pacing, and review |
+
+### 搜索增强协议 / Search Enhancement Protocol
+
+高质量 HR 研究需要增加“有效搜索密度”，而不是简单增加搜索量。
+
+High-quality HR research requires higher effective search density, not simply more search volume.
+
+| 搜索类别 / Search Category | 作用 / Purpose | 典型来源 / Typical Sources |
+|---|---|---|
+| 事实证据 / Factual Evidence | 支撑判断和结论 / Support judgments and conclusions | 法规、行业数据、公司公告、研究报告 / Regulations, industry data, company filings, research reports |
+| 方法论工具 / Methodology Tools | 让框架可落地 / Make the framework operational | 头部咨询公司、专业协会、管理实践 / Consulting firms, professional bodies, management practices |
+| 实践问题 / Practice Problems | 揭示真实阻力 / Reveal real implementation barriers | 企业案例、复盘文章、失败案例、管理访谈 / Company cases, retrospectives, failure cases, management interviews |
+| 反证材料 / Counter-Evidence | 修正结论边界 / Correct conclusion boundaries | 批评观点、不适用条件、失败案例 / Criticism, non-applicable contexts, failure cases |
+
+搜索结果必须回填到主框架中：
+
+Search findings must be mapped back into the core framework:
+
+```text
+搜索材料 / Search findings
+-> 价值链 / Value Chain
+-> 关键组织能力 / Key Organizational Capabilities
+-> 组织形式与组织机制 / Organization Forms and Mechanisms
+-> 关键岗位与核心人才 / Key Positions and Core Talent
+-> HR 机制输出 / HR Mechanism Outputs
+-> 实践问题与风险控制 / Practice Problems and Risk Control
+```
 
 ## 适用场景 / Use Cases
 

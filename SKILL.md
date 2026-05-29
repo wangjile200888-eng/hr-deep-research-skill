@@ -25,6 +25,8 @@ This skill is for deep HR research. It is not a concept list or generic advice g
   Default HR research structure: **analytical framework -> methodologies and tools -> practice and problems**.
 - 默认所有 HR 深度研究都要从“概念解释”升级到“经营问题、诊断逻辑、方法工具、数据证据、落地动作、阻力处理、风险控制”的完整颗粒度。  
   Upgrade every deep HR research output from concept explanation to business problem, diagnostic logic, tools, data evidence, actions, resistance handling, and risk control.
+- 深度研究默认执行“搜索增强协议”：增加有效搜索密度，而不是简单堆砌资料。搜索结果必须转化为事实证据、方法论工具、实践问题、反证材料，并回填到分析框架中。  
+  Deep research should use the "search enhancement protocol": increase effective search density rather than dumping sources. Search results must be converted into factual evidence, methodology tools, practice problems, and counter-evidence, then mapped back into the analytical framework.
 - 每个重要观点都必须回答：解决什么经营问题、适用于什么公司阶段、需要哪些数据验证、由谁负责推动、具体动作顺序是什么、过程中最大阻力是什么、如何判断做成了、做错会有什么副作用。  
   Every important claim should answer: what business problem it solves, which company stage it fits, what data validates it, who drives it, action sequence, major resistance, success criteria, and side effects if done poorly.
 - 默认先产出 Markdown；用户确认后再转 PDF，除非用户明确要求直接生成 PDF。  
@@ -147,6 +149,49 @@ Translate frameworks and tools into real implementation issues.
 涉及当前信息、外部环境、法律、市场、公司、行业趋势时，必须查找资料。  
 Browse or research when the topic involves current information, external environment, law, market, companies, or industry trends.
 
+#### 搜索增强协议 / Search Enhancement Protocol
+
+目标不是“搜得多”，而是提升四种密度：
+
+The goal is not to search more, but to increase four kinds of density:
+
+1. 证据密度：每个核心结论至少有 2 个来源，或 1 个强权威来源支撑。  
+   Evidence density: every core conclusion should have at least two sources, or one highly authoritative source.
+2. 方法论密度：每个重要框架都要找到可操作的方法论工具，而不是只停留在概念。  
+   Methodology density: every important framework should connect to actionable methodology tools, not just concepts.
+3. 实践问题密度：必须搜索真实落地中的阻力、失败案例、争议和限制。  
+   Practice-problem density: search for real implementation resistance, failures, disputes, and limitations.
+4. 反证密度：必须主动寻找反例、批评观点或不适用场景，防止结论过度乐观。  
+   Counter-evidence density: actively search for counterexamples, criticism, or contexts where the idea does not apply.
+
+搜索资料必须整理成四类：
+
+Search findings must be organized into four categories:
+
+| 类别 / Category | 作用 / Purpose | 示例 / Examples |
+|---|---|---|
+| 事实证据 / Factual Evidence | 支撑问题判断和结论 / Support diagnosis and conclusions | 行业数据、法规、公司公告、研究报告 / Industry data, regulation, company filings, research reports |
+| 方法论工具 / Methodology Tools | 让分析框架可落地 / Operationalize the framework | TOM、RACI/RAPID、能力模型、九宫格 / TOM, RACI/RAPID, competency model, 9-box |
+| 实践问题 / Practice Problems | 揭示落地阻力 / Reveal implementation barriers | 业务反对、数据争议、部门墙、干部不执行 / Business resistance, data disputes, silos, weak execution |
+| 反证材料 / Counter-Evidence | 校正结论边界 / Clarify limits and risks | 失败案例、争议观点、不适用条件 / Failure cases, criticism, non-applicable conditions |
+
+搜索之后必须回到主框架中消化：
+
+After searching, map findings back into the core framework:
+
+```text
+搜索材料 / Search findings
+-> 价值链 / Value Chain
+-> 关键组织能力 / Key Organizational Capabilities
+-> 组织形式与组织机制 / Organization Forms and Mechanisms
+-> 关键岗位与核心人才 / Key Positions and Core Talent
+-> HR 机制输出 / HR Mechanism Outputs
+-> 实践问题与风险控制 / Practice Problems and Risk Control
+```
+
+禁止把搜索材料直接堆成正文。必须提炼为判断、机制、工具、数据口径、实践问题和风险边界。  
+Do not paste search material directly into the final output. Convert it into judgments, mechanisms, tools, data definitions, practical problems, and risk boundaries.
+
 优先级 / Source priority:
 
 - 法律法规、政府机构、官方统计 / Laws, government agencies, official statistics
@@ -180,6 +225,7 @@ Convert evidence into HRD-usable insight.
 - 是否有清晰的问题树或逻辑图？ / Is there a clear issue tree or logic map?
 - 是否清楚呈现三层结构？ / Is the three-layer structure clear?
 - 是否完整呈现价值链 -> 组织能力 -> 组织形式/机制 -> 关键岗位/人才 -> HR 机制输出？ / Does it cover value chain -> capabilities -> organization forms/mechanisms -> key roles/talent -> HR mechanism outputs?
+- 是否执行搜索增强协议，并把搜索结果整理为事实证据、方法论工具、实践问题和反证材料？ / Has the search enhancement protocol been applied, with findings organized as factual evidence, methodology tools, practice problems, and counter-evidence?
 - 每个重要观点是否回答经营问题、适用阶段、验证数据、责任人、动作顺序、阻力、成功判断和副作用？ / Does every important point cover business problem, applicable stage, validation data, owner, action sequence, resistance, success criteria, and side effects?
 - 方法论工具是否展开到定义、适用场景、操作步骤、输入数据、输出结果、HRD 判断标准、误用风险和管理层质疑？ / Are tools expanded into definition, scenarios, steps, inputs, outputs, HRD judgment, misuse risks, and management challenges?
 - 是否把口号换成了具体操作细节？ / Are slogans converted into operational details?

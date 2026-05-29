@@ -21,6 +21,14 @@ These templates are starting points. Adapt them to the user's objective rather t
 - 依据 / Rationale:
 - 不确定性 / Uncertainty:
 
+## 搜索增强矩阵 / Search Enhancement Matrix
+| 类别 / Category | 关键发现 / Key Finding | 来源 / Source | 如何进入分析框架 / How It Maps to the Framework | 局限或反证 / Limitation or Counter-Evidence |
+|---|---|---|---|---|
+| 事实证据 / Factual Evidence |  |  |  |  |
+| 方法论工具 / Methodology Tools |  |  |  |  |
+| 实践问题 / Practice Problems |  |  |  |  |
+| 反证材料 / Counter-Evidence |  |  |  |  |
+
 ## 分析框架 / Analytical Framework
 | 环节 / Step | 经营问题 / Business Problem | HRD 诊断点 / HRD Diagnostic Point | 机制输出 / Mechanism Output |
 |---|---|---|---|
