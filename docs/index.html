@@ -66,6 +66,35 @@
       background: rgba(255,255,255,.08);
     }
 
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .avatar {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,.78);
+      box-shadow: 0 12px 26px rgba(0,0,0,.22);
+      background: #fff;
+      object-fit: cover;
+    }
+
+    .profile-text {
+      color: rgba(255,255,255,.9);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .profile-text strong {
+      display: block;
+      color: #fff;
+      font-size: 16px;
+    }
+
     h1 {
       max-width: 920px;
       margin: 0;
@@ -258,6 +287,13 @@
   <header class="hero">
     <div class="hero-inner">
       <div class="eyebrow">Open-source Codex Skill · HR Deep Research</div>
+      <div class="profile">
+        <img class="avatar" src="https://github.com/wangjile200888-eng.png" alt="GitHub avatar of wangjile200888-eng" />
+        <div class="profile-text">
+          <strong>wangjile200888-eng</strong>
+          GitHub open-source project
+        </div>
+      </div>
       <h1>把 HR 研究从概念库，推进到经营、组织与机制设计。</h1>
       <p>一个中英文双语的人力资源深度研究技能：从价值链推导组织能力，从组织能力推导组织形式与关键人才，再落到 HR 六大模块、方法论工具和实践问题。</p>
       <div class="actions">
