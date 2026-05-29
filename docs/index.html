@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HR Deep Research Skill | 人力资源深度研究技能</title>
+  <meta name="description" content="一个用于系统研究人力资源问题的 Codex Skill：从价值链到组织能力、组织形式、关键岗位、HR 六大模块，再到方法论工具与实践问题。" />
+  <meta property="og:title" content="HR Deep Research Skill" />
+  <meta property="og:description" content="把 HR 研究纳入分析框架、方法论工具、实践与问题的结构化工作流。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://wangjile200888-eng.github.io/hr-deep-research-skill/" />
+  <meta name="theme-color" content="#0f3d3e" />
+  <style>
+    :root {
+      --ink: #142322;
+      --muted: #516362;
+      --line: #d9e3df;
+      --paper: #fbfbf7;
+      --white: #ffffff;
+      --forest: #0f3d3e;
+      --teal: #17706b;
+      --gold: #b9822b;
+      --clay: #9f5c44;
+      --blue: #315b7c;
+      --shadow: 0 18px 46px rgba(20, 35, 34, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", Arial, sans-serif;
+      line-height: 1.72;
+    }
+
+    a { color: inherit; }
+
+    .hero {
+      min-height: 92vh;
+      display: grid;
+      align-items: center;
+      padding: 32px 20px 40px;
+      background:
+        linear-gradient(rgba(11, 34, 34, 0.72), rgba(11, 34, 34, 0.54)),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='1000' viewBox='0 0 1600 1000'%3E%3Crect width='1600' height='1000' fill='%23143f3e'/%3E%3Cg opacity='.18' fill='none' stroke='%23f3e6c8' stroke-width='2'%3E%3Cpath d='M120 170h1360M120 330h1360M120 490h1360M120 650h1360M120 810h1360M260 80v840M520 80v840M780 80v840M1040 80v840M1300 80v840'/%3E%3C/g%3E%3Cg opacity='.32'%3E%3Crect x='160' y='140' width='310' height='140' rx='12' fill='%2317706b'/%3E%3Crect x='540' y='280' width='310' height='140' rx='12' fill='%23b9822b'/%3E%3Crect x='920' y='420' width='310' height='140' rx='12' fill='%239f5c44'/%3E%3Crect x='470' y='640' width='640' height='120' rx='12' fill='%23315b7c'/%3E%3C/g%3E%3C/svg%3E");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .hero-inner {
+      max-width: 1080px;
+      width: 100%;
+      margin: 0 auto;
+      color: #fff;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      border: 1px solid rgba(255,255,255,.38);
+      padding: 6px 10px;
+      font-size: 13px;
+      letter-spacing: 0;
+      margin-bottom: 18px;
+      background: rgba(255,255,255,.08);
+    }
+
+    h1 {
+      max-width: 920px;
+      margin: 0;
+      font-size: clamp(36px, 7vw, 78px);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .hero p {
+      max-width: 790px;
+      margin: 22px 0 0;
+      color: rgba(255,255,255,.9);
+      font-size: clamp(17px, 2.2vw, 23px);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .button {
+      min-height: 46px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 11px 16px;
+      border: 1px solid rgba(255,255,255,.42);
+      text-decoration: none;
+      background: #fff;
+      color: var(--forest);
+      font-weight: 700;
+    }
+
+    .button.secondary {
+      background: rgba(255,255,255,.08);
+      color: #fff;
+    }
+
+    main { overflow: hidden; }
+
+    section {
+      padding: 64px 20px;
+    }
+
+    .wrap {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      margin: 0 0 18px;
+      font-size: clamp(26px, 4vw, 42px);
+      line-height: 1.16;
+      letter-spacing: 0;
+      color: var(--forest);
+    }
+
+    .lead {
+      max-width: 780px;
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .three {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .item, .panel {
+      background: var(--white);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+
+    .item b {
+      display: block;
+      color: var(--forest);
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .item p { margin: 0; color: var(--muted); }
+
+    .framework {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      gap: 16px;
+      align-items: start;
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 16px;
+    }
+
+    .step .tag {
+      color: #fff;
+      background: var(--forest);
+      padding: 8px 10px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .step:nth-child(2) .tag { background: var(--teal); }
+    .step:nth-child(3) .tag { background: var(--gold); }
+    .step:nth-child(4) .tag { background: var(--clay); }
+    .step:nth-child(5) .tag { background: var(--blue); }
+
+    .step h3 {
+      margin: 0 0 4px;
+      font-size: 19px;
+      color: var(--ink);
+    }
+
+    .step p { margin: 0; color: var(--muted); }
+
+    .tools {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    .tool {
+      border-left: 5px solid var(--teal);
+      background: #fff;
+      padding: 16px;
+      border-top: 1px solid var(--line);
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .tool b { color: var(--forest); }
+    .tool span { display: block; color: var(--muted); margin-top: 4px; }
+
+    .problems {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    .problem {
+      padding: 16px;
+      background: #fff;
+      border: 1px solid var(--line);
+    }
+
+    .problem b { color: var(--clay); }
+    .problem p { margin: 6px 0 0; color: var(--muted); }
+
+    .code {
+      background: #122322;
+      color: #e8f2ef;
+      padding: 20px;
+      overflow-x: auto;
+      font-family: Consolas, "Microsoft YaHei", monospace;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    footer {
+      padding: 30px 20px 46px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      background: #fff;
+    }
+
+    @media (max-width: 760px) {
+      .hero { min-height: 88vh; padding-top: 28px; }
+      .actions { flex-direction: column; }
+      .button { width: 100%; }
+      .three, .tools, .problems { grid-template-columns: 1fr; }
+      .step { grid-template-columns: 1fr; }
+      section { padding: 46px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Open-source Codex Skill · HR Deep Research</div>
+      <h1>把 HR 研究从概念库，推进到经营、组织与机制设计。</h1>
+      <p>一个中英文双语的人力资源深度研究技能：从价值链推导组织能力，从组织能力推导组织形式与关键人才，再落到 HR 六大模块、方法论工具和实践问题。</p>
+      <div class="actions">
+        <a class="button" href="https://github.com/wangjile200888-eng/hr-deep-research-skill">查看 GitHub 仓库</a>
+        <a class="button secondary" href="#method">查看核心方法</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="method">
+      <div class="wrap">
+        <h2>三层研究结构</h2>
+        <p class="lead">这个 skill 的目标不是罗列 HR 概念，而是让每个 HR 议题都能回答：解决什么经营问题，需要什么组织能力，采用什么组织形式，哪些岗位和人才承载，最后 HR 机制如何输出。</p>
+        <div class="three">
+          <div class="item">
+            <b>一、分析框架</b>
+            <p>价值链 -> 组织能力 -> 组织形式/机制 -> 关键岗位/人才 -> HR 六大模块输出。</p>
+          </div>
+          <div class="item">
+            <b>二、方法论与工具</b>
+            <p>使用头部咨询公司和成熟管理实践中的工具，让框架可诊断、可设计、可执行。</p>
+          </div>
+          <div class="item">
+            <b>三、实践与问题</b>
+            <p>识别真实组织中的阻力、冲突、数据争议、变革风险，并给出解决方案。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>分析框架</h2>
+        <p class="lead">HR 机制不是起点，而是由经营价值、组织能力和组织形式推导出来的结果。</p>
+        <div class="framework">
+          <div class="step">
+            <div class="tag">01</div>
+            <div>
+              <h3>价值链 · Value Chain</h3>
+              <p>企业在哪里创造价值、转化价值、交付价值、损失价值？看收入、利润、现金流、客户体验、效率和风险。</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="tag">02</div>
+            <div>
+              <h3>关键组织能力 · Capabilities</h3>
+              <p>为了承接价值链，组织必须持续具备什么能力？例如增长、复制、协同、创新、成本控制、客户运营。</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="tag">03</div>
+            <div>
+              <h3>组织形式与组织机制 · Organization Design</h3>
+              <p>选择职能制、事业部制、矩阵制、项目制、中台、共享服务或敏捷小队，并设计权责、决策、预算、例会和问责机制。</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="tag">04</div>
+            <div>
+              <h3>关键岗位与核心人才 · Key Roles</h3>
+              <p>哪些岗位和人才真正承载组织能力？识别关键岗位、核心人才画像、干部梯队、继任和人才池。</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="tag">05</div>
+            <div>
+              <h3>HR 机制输出 · HR Mechanisms</h3>
+              <p>招聘配置、培训发展、绩效管理、薪酬激励、员工关系、组织发展/文化如何围绕组织能力联动。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>方法论与工具</h2>
+        <p class="lead">工具不是装饰，而是用来解决框架落地问题。每个工具都要说明输入数据、操作步骤、输出结果、管理决策和误用风险。</p>
+        <div class="tools">
+          <div class="tool"><b>价值链分析</b><span>定位业务价值创造与损失的位置。</span></div>
+          <div class="tool"><b>组织能力地图</b><span>把战略要求转成组织必须具备的能力。</span></div>
+          <div class="tool"><b>Target Operating Model</b><span>设计组织形式、治理、流程和资源配置机制。</span></div>
+          <div class="tool"><b>RACI / RAPID</b><span>澄清决策权、建议权、执行权和问责关系。</span></div>
+          <div class="tool"><b>关键岗位识别</b><span>找出真正影响业务结果和组织能力的岗位。</span></div>
+          <div class="tool"><b>KPI / BSC / OKR</b><span>把组织能力和关键岗位转成可管理的目标与指标。</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>实践与问题</h2>
+        <p class="lead">真正的专业度，体现在能预判落地阻力，并把框架转成制度、流程、模板、指标和人才机制。</p>
+        <div class="problems">
+          <div class="problem"><b>业务方不认同 HR 诊断</b><p>从价值链和经营指标切入，用业务数据证明问题。</p></div>
+          <div class="problem"><b>组织能力说不清</b><p>把口号转成行为、流程、岗位、指标和机制。</p></div>
+          <div class="problem"><b>组织形式选错</b><p>先判断价值链复杂度和能力需求，再选择组织形态。</p></div>
+          <div class="problem"><b>权责机制不清</b><p>用授权表、RACI/RAPID、例会和问责机制澄清。</p></div>
+          <div class="problem"><b>关键岗位泛化</b><p>按业务影响、稀缺性、替代成本、风险暴露度筛选。</p></div>
+          <div class="problem"><b>数据口径争议</b><p>先统一指标定义、数据来源和使用场景。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>如何使用</h2>
+        <p class="lead">安装到 Codex skills 目录后，用自然语言调用即可。</p>
+        <div class="code">使用 $hr-deep-research，深度研究项目工作的人力资源管理
+
+使用 $hr-deep-research，研究多品牌多渠道公司如何做组织诊断
+
+使用 $hr-deep-research，建立连锁零售企业关键岗位与组织能力的研究框架</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>HR Deep Research Skill</strong><br />
+      Open-source under MIT License · <a href="https://github.com/wangjile200888-eng/hr-deep-research-skill">GitHub Repository</a>
+    </div>
+  </footer>
+</body>
+</html>
